@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>Student Registration Form</h2>
+
+        <form id="registrationForm">
+
+            <label>Student Name:</label>
+            <input type="text" id="name" placeholder="Enter your name">
+            <p id="displayName"></p>
+
+            <label>Email:</label>
+            <input type="email" id="email" placeholder="Enter your email">
+
+            <label>Age:</label>
+            <input type="number" id="age" placeholder="Enter your age">
+
+            <label>Course:</label>
+            <input type="text" id="course" placeholder="Enter your course">
+
+            <p id="lastKey">Last Key Pressed: None</p>
+
+            <p id="error"></p>
+
+            <button type="submit" id="submitBtn">
+                Register
+            </button>
+
+            <p id="success"></p>
+
+        </form>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
